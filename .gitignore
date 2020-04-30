@@ -1,0 +1,14 @@
+build*/
+devel*/
+logs/
+.bt
+.pcd
+.catkin_*
+**/*.pyc
+**/*-build
+**/*.pcd
+**/*.bag
+**/*.bt
+**/*.user
+**/*-safe
+**/*.mk
