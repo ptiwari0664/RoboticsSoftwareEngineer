@@ -1,0 +1,6 @@
+project1
+/home/hitech/workspace/gitws/udacity/RoboticsSoftwareEngineer/GazeboBasics/Project1_ws/devel/.private/project1/cmake.lock /home/hitech/workspace/gitws/udacity/RoboticsSoftwareEngineer/GazeboBasics/Project1_ws/devel/./cmake.lock
+/home/hitech/workspace/gitws/udacity/RoboticsSoftwareEngineer/GazeboBasics/Project1_ws/devel/.private/project1/share/project1/cmake/project1Config-version.cmake /home/hitech/workspace/gitws/udacity/RoboticsSoftwareEngineer/GazeboBasics/Project1_ws/devel/share/project1/cmake/project1Config-version.cmake
+/home/hitech/workspace/gitws/udacity/RoboticsSoftwareEngineer/GazeboBasics/Project1_ws/devel/.private/project1/share/project1/cmake/project1Config.cmake /home/hitech/workspace/gitws/udacity/RoboticsSoftwareEngineer/GazeboBasics/Project1_ws/devel/share/project1/cmake/project1Config.cmake
+/home/hitech/workspace/gitws/udacity/RoboticsSoftwareEngineer/GazeboBasics/Project1_ws/devel/.private/project1/lib/libwelcome_message.so /home/hitech/workspace/gitws/udacity/RoboticsSoftwareEngineer/GazeboBasics/Project1_ws/devel/lib/libwelcome_message.so
+/home/hitech/workspace/gitws/udacity/RoboticsSoftwareEngineer/GazeboBasics/Project1_ws/devel/.private/project1/lib/pkgconfig/project1.pc /home/hitech/workspace/gitws/udacity/RoboticsSoftwareEngineer/GazeboBasics/Project1_ws/devel/lib/pkgconfig/project1.pc
