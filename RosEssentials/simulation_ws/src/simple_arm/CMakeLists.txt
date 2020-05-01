@@ -130,6 +130,10 @@ add_executable(arm_mover src/arm_mover.cpp)
 target_link_libraries(arm_mover ${catkin_LIBRARIES})
 add_dependencies(arm_mover simple_arm_generate_messages_cpp)
 
+add_executable(look_away src/look_away.cpp)
+target_link_libraries(look_away ${catkin_LIBRARIES})
+add_dependencies(look_away simple_arm_generate_messages_cpp)
+
 ## Rename C++ executable without prefix
 ## The above recommended prefix causes long target names, the following renames the
 ## target back to the shorter version for ease of user use
