@@ -4,6 +4,7 @@ logs/
 .bt
 .pcd
 .catkin_*
+.vscode*
 **/*.pyc
 **/*-build
 **/*.pcd
