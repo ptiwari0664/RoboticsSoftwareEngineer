@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "browse": {
+                "databaseFilename": "",
+                "limitSymbolsToIncludedHeaders": true
+            },
+            "includePath": [
+                "/home/hitech/workspace/gitws/udacity/RoboticsSoftwareEngineer/RosEssentials/myrobot_ws/src/ball_chaser",
+                "${workspaceFolder}/devel/.private/ball_chaser/include"
+            ],
+            "name": "ROS",
+            "intelliSenseMode": "gcc-x64",
+            "compilerPath": "/usr/bin/clang",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "configurationProvider": "b2.catkin_tools"
+        }
+    ],
+    "version": 4
+}

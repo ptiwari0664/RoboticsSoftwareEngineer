@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<robot name="myrobot_camera" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+    <xacro:macro name="myrobot_camera" params="*origin prefix:=camera" >
+
+        <xacro:property name="M_PI" value="3.1415926535897931" />
+
+        <link name="${prefix}">
+            <inertial>
+                <mass value="0.1" />
+                <origin xyz="0 0 0" rpy="0 0 0" />
+                <inertia ixx="1e-6" ixy="0.0" ixz="0.0" iyy="1e-6" iyz="0.0" izz="1e-6" />
+            </inertial>
+            <visual name="visual">
+                <origin xyz="0 0 0" rpy="0 0 0" />
+                <geometry>
+                    <box size="0.05 0.05 0.05" />
+                </geometry>
+            </visual>
+            <collision name='collision'>
+                <origin xyz="0 0 0" rpy="0 0 0" />
+                <geometry>
+                    <box size="0.05 0.05 0.05" />
+                </geometry>
+            </collision>
+        </link>
+
+        <joint name="${prefix}_joint" type="fixed">
+            <parent link="chassis" />
+            <child link="${prefix}" />
+            <axis xyz="0 1 0" rpy="0 0 0"/>
+    	    <xacro:insert_block name="origin"/>
+        </joint>
+
+
+    </xacro:macro>
+</robot>
