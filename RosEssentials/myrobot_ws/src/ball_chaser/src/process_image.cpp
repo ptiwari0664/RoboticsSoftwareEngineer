@@ -29,7 +29,7 @@ void process_image_callback(const sensor_msgs::Image img)
     int white_pixel_height = -1, white_pixel_step = -1; 
 
     for (int i = 0; i < img.height * img.step; i++) {
-        if (img.data[i] == 255) {
+        if (img.data[i] == 255 && img.data[i+1] == 255 && img.data[i+2]==255) {
         white_pixel_height = i / img.step;
         white_pixel_step = i % img.step;
         break;
@@ -38,13 +38,16 @@ void process_image_callback(const sensor_msgs::Image img)
     
     // Step II: determine if this white pixel falls in Forward, Left or Right area
     float lin_x = 0.0, ang_z = 0.0;
-    if (white_pixel_step <= img.step * 0.3 && white_pixel_step >= 0) { // Left area
+    if (white_pixel_step <= img.step * 0.3 && white_pixel_step >= 0) {
+         // Left area
         ang_z = 0.5;
         lin_x = 0.2;
-    } else if (white_pixel_step > img.step *0.7  && white_pixel_step <= img.step) { // Right area
+    } else if (white_pixel_step > img.step *0.7  && white_pixel_step <= img.step) {
+         // Right area
         ang_z = -0.5;
         lin_x = 0.2;
-    } else if (white_pixel_step != -1) { // Forwared area
+    } else if (white_pixel_step != -1) { 
+        // Forwared area
         lin_x = 0.5;
         ang_z = 0.0;
     }

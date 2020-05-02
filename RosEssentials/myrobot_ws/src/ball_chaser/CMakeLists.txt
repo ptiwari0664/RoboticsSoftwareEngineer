@@ -118,8 +118,8 @@ include_directories(include ${catkin_INCLUDE_DIRS})
 
 add_executable(drive_bot_node src/drive_bot.cpp)
 target_link_libraries(drive_bot_node ${catkin_LIBRARIES})
-add_dependencies(drive_bot_node ${catkin_EXPORTED_TARGETS})
+add_dependencies(drive_bot_node ball_chaser_generate_messages_cpp)
 
 add_executable(process_image_node src/process_image.cpp)
 target_link_libraries(process_image_node ${catkin_LIBRARIES})
-add_dependencies(process_image_node ${catkin_EXPORTED_TARGETS})
+add_dependencies(process_image_node ball_chaser_generate_messages_cpp)
