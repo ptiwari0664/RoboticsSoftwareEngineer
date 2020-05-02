@@ -5,6 +5,8 @@ logs/
 .pcd
 .catkin_*
 .vscode*
+.zip
+.tar*
 **/*.pyc
 **/*-build
 **/*.pcd
