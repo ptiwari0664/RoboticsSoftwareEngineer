@@ -2,7 +2,6 @@
 #include "ball_chaser/DriveToTarget.h"
 #include <sensor_msgs/Image.h>
 
-
 // Define a global client that can request services
 ros::ServiceClient client;
 
@@ -41,10 +40,13 @@ void process_image_callback(const sensor_msgs::Image img)
     float lin_x = 0.0, ang_z = 0.0;
     if (white_pixel_step <= img.step * 0.3 && white_pixel_step >= 0) { // Left area
         ang_z = 0.5;
+        lin_x = 0.2;
     } else if (white_pixel_step > img.step *0.7  && white_pixel_step <= img.step) { // Right area
         ang_z = -0.5;
+        lin_x = 0.2;
     } else if (white_pixel_step != -1) { // Forwared area
         lin_x = 0.5;
+        ang_z = 0.0;
     }
                 
     // Step III: if white ball is found, call drive_bot function and pass velocities
