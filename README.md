@@ -12,11 +12,19 @@ Learn how to build a robot in Gazebo environment and Gazebo plugins. Simulate a 
 |:---:|:---:|:---:|
 |[![Build Status][ci-image]][ci]|[![Build Status][ci-image]][ci]|[![Build Status](https://travis-ci.org/ROBOTIS-GIT/turtlebot3.svg?branch=ros2-devel)](https://travis-ci.org/ROBOTIS-GIT/turtlebot3)|
 
+An overview of the Robot Operating System(ROS 1) Middle framework and ros workspace setup. It includes how to create new packages and their structures. A detailed description of how to write nodes with subscribes and publishers.
+
 ## Chapter 3: Localization (ROS 1 Packages) 
 |master|Kinetic + Ubuntu Xenial|Melodic + Ubuntu Bionic|
 |:---:|:---:|:---:|
 |[![Build Status][ci-image]][ci]|[![Build Status][ci-image]][ci]|[![Build Status](https://travis-ci.org/ROBOTIS-GIT/turtlebot3.svg?branch=ros2-devel)](https://travis-ci.org/ROBOTIS-GIT/turtlebot3)|
 
+An Introduction to basic localization algorithms and concepts. A project where an implementation of **where I am** has been done using AMCL algorithm.
+
+## Chapter 4: Mapping and SLAM (ROS 1 Packages) 
+|master|Kinetic + Ubuntu Xenial|Melodic + Ubuntu Bionic|
+|:---:|:---:|:---:|
+|[![Build Status][ci-image]][ci]|[![Build Status][ci-image]][ci]|[![Build Status](https://travis-ci.org/ROBOTIS-GIT/turtlebot3.svg?branch=ros2-devel)](https://travis-ci.org/ROBOTIS-GIT/turtlebot3)|
 
 
 [community]: https://thoughtbot.com/community?utm_source=github
