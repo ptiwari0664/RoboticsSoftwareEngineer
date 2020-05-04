@@ -52,7 +52,6 @@
 		<param name="Vis/MinInliers" type="string" value="15"/>
 
 		<param name="Vis/IncrementalMemory" type="string" value="false"/>
-
 		
 	</node>
 
