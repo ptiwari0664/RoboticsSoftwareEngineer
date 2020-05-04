@@ -26,6 +26,7 @@ An Introduction to basic localization algorithms and concepts. A project where a
 |:---:|:---:|:---:|
 |[![Build Status][ci-image]][ci]|[![Build Status][ci-image]][ci]|[![Build Status](https://travis-ci.org/ROBOTIS-GIT/turtlebot3.svg?branch=ros2-devel)](https://travis-ci.org/ROBOTIS-GIT/turtlebot3)|
 
+Introduction to mapping and SLAM algorithms. Mapping includes occupancy grip mapping algorithms, where the user can map an environment and then localize onto.  
 
 [community]: https://thoughtbot.com/community?utm_source=github
 [hire]: https://thoughtbot.com/hire-us?utm_source=github
